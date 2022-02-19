@@ -1,0 +1,121 @@
+*{
+    text-align: center;
+   font-family: cursive;
+    /* background-color: white; */
+}
+
+.scoreAndmoves{
+    
+    height: fit-content;
+    width:20% ;
+    border: 3px solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(19, 11, 139, 0.801);
+    background-color: rgba(224, 224, 223, 0.473);
+}
+
+#scoreBoard{
+    margin: auto;
+}
+
+#scoreBoard > h1{
+    font-size: 50px;
+    overflow: auto;
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#board{
+    margin: auto;
+    border-radius: 20px;
+    /* background-color: rgb(139, 137, 131); */
+    border: none;
+}
+#score{
+    color: brown;
+}
+
+#moves{
+    margin: auto;
+    width: 20%;
+}
+
+#move{
+    font-size: 70px;
+}
+
+header > h1{
+    font-size: 50px;
+    text-decoration:dotted blue underline overline ;
+    color: red;
+}
+
+td{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:  30px;
+    font-weight: bold;
+    box-shadow: 0px 0px 15px rgba(19, 11, 139, 0.801);
+    
+    /* margin: 2px; */
+    background-color: rgba(224, 224, 223, 0.473);
+    border: solid;
+    height: 110px;
+    width: 110px;
+    border-radius: 20px;
+    text-align: center;
+    /* padding: 50p; */
+
+}
+
+#backdrop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.7);
+    /* pointer-events: none; */
+    display: none;
+}
+
+#backdrop.visible{
+    display: block;
+}
+
+
+.modal{
+    position: absolute;
+    margin: 100px auto;
+    left: 40%;
+    height: fit-content;
+    width:20% ;
+    /* font-size: 20px; */
+    border: 3px solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(19, 11, 139, 0.801);
+    background-color: rgb(224, 224, 223);
+
+    display: none;
+}
+.modal.visible{
+    display: block;
+}
+
+#tryagain{
+    margin-bottom: 5% ;
+    font-size: 30px;
+    font-family:inherit;
+    font-weight: bold;
+    border-radius: 10px;
+    border-width: 4px;
+    background-color: lightyellow;
+}
+
+#tryagain:hover{
+    background-color: brown;
+    color:white;
+    cursor: pointer;
+}
